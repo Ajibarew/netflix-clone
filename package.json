@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Ajibarew.github.io/Netflix-Clone",
-	"name": "netflix-clone",
+  "homepage": "https://Ajibarew.github.io/netflix-clone",
+  "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,9 +22,9 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "github-pages": "^3.0.2"
   }
 }
