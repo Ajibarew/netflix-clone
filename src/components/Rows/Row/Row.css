@@ -1,0 +1,38 @@
+.title {
+  /* width: 56px; */
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: lighter;
+  /* w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5]
+    transition duration-200 hover:text-white md:text-2xl */
+}
+.row__poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row__poster:hover {
+  transform: scale(1.08);
+}
+.row__posterLarge {
+  max-height: 250px;
+}
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
+.row {
+  margin-left: 20px;
+  color: white;
+}
